@@ -14,6 +14,8 @@
 =============================== */
 :root {
     /* TODO: criar cores do projeto */
+    --Cor_principal:#00A53c;
+    --cor_secundaria:#ffffff;
 }
 
 /* ===============================
@@ -97,4 +99,25 @@ body {
 .completed {
     text-decoration: line-through;
     opacity: 0.6;
+}
+
+.card {
+     width: 321px;
+     height: 121px;
+     background-color: #00A53c;
+     border-radius: 20px;
+     display: flex;
+     gap:15px;
+
+    span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
