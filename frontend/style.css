@@ -14,8 +14,10 @@
 =============================== */
 :root {
     /* TODO: criar cores do projeto */
-    --Cor_principal:#00A53c;
-    --cor_secundaria:#ffffff;
+    --Cor_principal:#00A53C;
+    --cor_secundaria:rgba(0,165,60,0.48);
+    --background-color:#000000;
+
 }
 
 /* ===============================
@@ -37,6 +39,7 @@ body {
     width: 100%;
     max-width: 600px;
     padding: 20px;
+    background-color: var(--background-color);
 }
 
 /* ===============================
@@ -117,7 +120,6 @@ body {
 .card {
      width: 321px;
      height: 121px;
-     background-color: #00A53c;
      border-radius: 20px;
      display: flex;
      gap:15px;
@@ -126,11 +128,14 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        color: var(--cor_secundaria);
     }
 
     p {
         display: flex;
         justify-content: center;
         align-items: center;
+        color: var(--cor_secundaria);
     }
+
 }
