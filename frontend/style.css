@@ -53,6 +53,19 @@ body {
 =============================== */
 .stats {
     margin: 20px 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid 2px greenyellow;
+        border-radius: 8px;
+        width: 100%;
+    }
 }
 
 /* ===============================
